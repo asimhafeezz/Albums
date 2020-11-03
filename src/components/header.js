@@ -10,6 +10,10 @@ const Header = ({ heading }) => {
       </View>
 };
 
+Header.defaultProps= {
+  heading: "Albums"
+}
+
 const styles = StyleSheet.create({
     rootHeader:{
         alignItems: 'center',

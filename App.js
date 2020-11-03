@@ -20,14 +20,12 @@ import {
 import {
   Colors
 } from 'react-native/Libraries/NewAppScreen';
-import AlbumList from './src/components/albumList';
-import Header from './src/components/header';
+import MainIndex from './src/components/index';
 
 const App = () => {
   return (
     <View style={styles.mainView}>
-      <Header heading="Albums" />
-      <AlbumList />
+      <MainIndex />
     </View>
   );
 };

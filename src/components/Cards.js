@@ -87,8 +87,8 @@ const styles = StyleSheet.create({
   },
   mainImageView: {
     paddingTop: 10,
-    paddingRight: 3,
-    paddingLeft: 3,
+    paddingRight: 0,
+    paddingLeft: 0,
   },
   mainImage: {
     height: 400,
