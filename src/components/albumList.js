@@ -1,9 +1,8 @@
 import React from "react";
 import { View } from "react-native";
-import albums from "../data/albums.json";
 import Card from "./Cards";
 
-const AlbumList = () => {
+const AlbumList = ({ albums }) => {
   return (
     <View style={styles.rootStyle}>
       {albums.map((album) => (

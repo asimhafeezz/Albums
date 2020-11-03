@@ -93,7 +93,8 @@ const styles = StyleSheet.create({
   mainImage: {
     height: 400,
     width: null,
-    borderRadius: 7,
+    borderRadius: 4,
+    resizeMode: 'stretch'
   },
   buttonStyle: {
     justifyContent: "center",

@@ -2,20 +2,26 @@ import React from "react";
 import {
   FlatList,
   Image,
-  Pressable,
-  ScrollView,
   StyleSheet,
   Text,
+  TouchableOpacity,
   View,
 } from "react-native";
-import artists from "../data/artists.json";
-const HorizontallAvatars = () => {
-  const { rootContainer, avatar, textStyle ,avatarView } = styles;
+import albums from '../data/albums.json'
+const HorizontallAvatars = ({ artists , setAlbums }) => {
+  const { rootContainer, avatar, textStyle, avatarView } = styles;
+
+  const onAvatarPress = (item) => {
+    const newData = albums.filter(album => album.artist === item.artist)
+    setAlbums(newData)
+  }
+
   return (
     <View style={rootContainer}>
       <FlatList
         data={artists}
         renderItem={({ item }) => (
+          <TouchableOpacity onPress={()=> onAvatarPress(item)}>
           <View style={avatarView}>
             <Image source={{ uri: item.image }} style={avatar} />
             <Text style={textStyle}>
@@ -24,6 +30,7 @@ const HorizontallAvatars = () => {
                 : item.artist}
             </Text>
           </View>
+          </TouchableOpacity>
         )}
         keyExtractor={(item) => item.artist}
         horizontal={true}
@@ -34,9 +41,10 @@ const HorizontallAvatars = () => {
 
 const styles = StyleSheet.create({
   rootContainer: {
-    padding: 10,
-    // flexDirection:'row',
-    // overflow: 'scroll'
+    paddingTop: 12,
+    paddingBottom: 12,
+    paddingLeft: 16,
+    paddingRight: 16
   },
   avatar: {
     height: 75,
@@ -46,7 +54,7 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     fontSize: 10,
-    marginLeft: -6,
+    marginLeft: -10,
   },
   avatarView: {
     flexDirection: "column",
