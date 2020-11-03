@@ -1,25 +1,32 @@
 import React from "react";
 import { View } from "react-native";
 import albums from "../data/albums.json";
-import Card from './Cards'
+import Card from "./Cards";
 
 const AlbumList = () => {
   return (
     <View style={styles.rootStyle}>
       {albums.map((album) => (
-        <Card key={album.title} artist={album.artist} title={album.title} thumbnail_image={album.thumbnail_image} image={album.image} url={album.url} />
+        <Card
+          key={album.title}
+          artist={album.artist}
+          title={album.title}
+          thumbnail_image={album.thumbnail_image}
+          image={album.image}
+          url={album.url}
+        />
       ))}
     </View>
   );
 };
 
 const styles = {
-    rootStyle: {
-        marginLeft: 5,
-        marginRight: 5,
-        marginTop: 10,
-        marginBottom: 10
-    }
-}
+  rootStyle: {
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 10,
+    marginBottom: 50,
+  },
+};
 
 export default AlbumList;
