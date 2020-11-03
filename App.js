@@ -25,16 +25,17 @@ import Header from './src/components/header';
 
 const App = () => {
   return (
-    <>
+    <View style={styles.mainView}>
       <Header heading="Albums" />
       <AlbumList />
-    </>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
+  mainView: {
+    flex: 1,
+    backgroundColor: '#f8f8f8'
   },
   engine: {
     position: 'absolute',

@@ -7,6 +7,13 @@
         "thumbnail_image": "https://img.jakpost.net/c/2019/07/24/2019_07_24_76830_1563938895._large.jpg"
     },
     {
+        "title": "Cat",
+        "artist": "Taylor Swift",
+        "url":"https://www.amazon.com/Beautiful-Ghosts-Motion-Picture-Cats/dp/B081FGJH8R",
+        "image":"https://m.media-amazon.com/images/I/611hhvdmJEL._SS500_.jpg",
+        "thumbnail_image": "https://img.jakpost.net/c/2019/07/24/2019_07_24_76830_1563938895._large.jpg"
+    },
+    {
         "title": "Fearless",
         "artist": "Taylor Swift",
         "url":"https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
@@ -23,15 +30,15 @@
     {
         "title": "1989",
         "artist": "Taylor Swift",
-        "url":"https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
+        "url":"https://www.amazon.com/1989-Taylor-Swift/dp/B00P2HSETA/ref=pd_sbs_15_2/142-6377761-4564136?_encoding=UTF8&pd_rd_i=B00P2HSETA&pd_rd_r=d2cff3f6-502e-4197-8d38-fd5a0cb3d434&pd_rd_w=0bYOU&pd_rd_wg=X6gdE&pf_rd_p=ff9b5089-1414-4e8f-9675-3397e98bf276&pf_rd_r=HXYBD208Q089ZAKW8WXP&psc=1&refRID=HXYBD208Q089ZAKW8WXP",
         "image":"https://images-na.ssl-images-amazon.com/images/I/91Da6C9HuUL._SX425_.jpg",
         "thumbnail_image": "https://img.jakpost.net/c/2019/07/24/2019_07_24_76830_1563938895._large.jpg"
     },
     {
-        "title": "Legend View",
+        "title": "Lover",
         "artist": "Taylor Swift",
-        "url":"https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
-        "image":"https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
+        "url":"https://www.amazon.com/Lover-Taylor-Swift/dp/B07SRF26YQ/ref=pd_sbs_15_4/142-6377761-4564136?_encoding=UTF8&pd_rd_i=B07SRF26YQ&pd_rd_r=87de6f64-5664-43d9-83c9-80bd3ed88c7c&pd_rd_w=FUUaL&pd_rd_wg=wOWk9&pf_rd_p=ff9b5089-1414-4e8f-9675-3397e98bf276&pf_rd_r=FSRK559YRZP7Y2VZ6E0Q&psc=1&refRID=FSRK559YRZP7Y2VZ6E0Q",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71RfNE3rIyL._SX425_.jpg",
         "thumbnail_image": "https://img.jakpost.net/c/2019/07/24/2019_07_24_76830_1563938895._large.jpg"
     }
 ]
