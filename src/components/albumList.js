@@ -1,9 +1,9 @@
 import React from "react";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import Card from "./Cards";
 
 const AlbumList = ({ albums }) => {
-  return (
+  return albums.length === 0 ? <View style={{alignItems:"center" , justifyContent:'center', flex: 1 , fontSize:25 , marginTop:200}}><Text>No Album Found!</Text></View> : (
     <View style={styles.rootStyle}>
       {albums.map((album) => (
         <Card
